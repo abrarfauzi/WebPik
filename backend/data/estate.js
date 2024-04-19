@@ -1,0 +1,88 @@
+const estates = [
+  {
+    name: 'Beautiful villa',
+    image: '/images/swimming_pool.avif',
+    description:
+      'Luxurious Villa for sale,with private pool and garden.',
+    city: 'Akko',
+    type: 'villa',
+    saleOrRent: 'sale',
+    price: 3400000,
+    rating: 4.5,
+    userEmail:'jane@email.com',
+    phoneNumber: 554582354,
+    numReviews: 12,
+  },
+  {
+    name: 'Beautiful House',
+    image: '/images/single_house.jpg',
+    description:
+      'Private house For Sale,with private car parking.',
+    city: 'Akko',
+    type: 'villa',
+    saleOrRent: 'sale',
+    price: 2500000,
+    rating: 3,
+    userEmail:'jane@email.com',
+    phoneNumber: 554582354,
+    numReviews: 12,
+  },
+  {
+    name: 'Beautiful House',
+    image: '/images/with_parking.jpeg',
+    description:
+      'Private modern house For Sale,with car parking.',
+    city: 'Akko',
+    type: 'villa',
+    saleOrRent: 'sale',
+    price: 4500000,
+    rating: 4.5,
+    userEmail:'john@email.com',
+    phoneNumber: 554582353,
+    numReviews: 22,
+  },
+  {
+    name: 'Beautiful house',
+    image: '/images/home_with_see_view.jpg',
+    description:
+      'Private house For Sale,with see view',
+    city: 'Akko',
+    type: 'Apartment',
+    saleOrRent: 'rent',
+    price: 4400000,
+    rating: 4.5,
+    userEmail: 'Admin@email.com',
+    phoneNumber: 554582352,
+    numReviews: 12,
+  },
+  {
+    name: 'Beautiful House',
+    image: '/images/clothing_store.jpg',
+    description:
+      'Clothing store,modern decoration',
+    city: 'Akko',
+    type: 'Studio',
+    saleOrRent: 'sale',
+    price: 4500000,
+    rating: 4.5,
+    userEmail: 'Admin@email.com',
+    phoneNumber: 554582352,
+    numReviews: 12,
+  },
+  {
+    name: 'Beautiful Furniture',
+    image: '/images/office.jpeg',
+    description:
+      'Private office For Sale,with furniture',
+    city: 'Akko',
+    type: 'Studio',
+    saleOrRent: 'rent',
+    price: 3900000,
+    rating: 4.5,
+    userEmail: 'Admin@email.com',
+    phoneNumber: 554582352,
+    numReviews: 12,
+  },
+]
+
+export default estates
