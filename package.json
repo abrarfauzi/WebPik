@@ -16,7 +16,7 @@
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "generate-toc": "markdown-toc -i readme.md"
   },
-  "homepage": "https://luckydeveloper1128.github.io/real-estate-mern",
+
   "author": "Lucky Developer",
   "license": "MIT",
   "dependencies": {
