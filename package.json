@@ -1,12 +1,13 @@
 {
   "name": "PIK",
+  "homebage":"https://www.abrarfauzi.at/WebPik",
   "version": "2.0.0",
   "type": "module",
   "description": "The information of real estate of Israel",
   "main": "server.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm build && vercel deploy --prod",
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
@@ -17,7 +18,8 @@
     "generate-toc": "markdown-toc -i readme.md"
   },
   
-  "author": "Lucky Developer",
+
+  "author": "abrarfauzi",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
