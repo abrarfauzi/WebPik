@@ -17,6 +17,10 @@
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "generate-toc": "markdown-toc -i readme.md"
   },
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2a1af21ecba753dcc9d4427f6e80afdafe389657
   "author": "abrarfauzi",
   "license": "MIT",
   "dependencies": {

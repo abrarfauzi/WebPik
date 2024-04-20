@@ -1,4 +1,9 @@
 {
     "version": 2,
+<<<<<<< HEAD
     "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
   }
+=======
+    "rewrites": [{ "source": "/(.*)", "destination": "frontend/public/index.html" }]
+  }
+>>>>>>> 2a1af21ecba753dcc9d4427f6e80afdafe389657
