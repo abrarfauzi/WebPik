@@ -18,7 +18,7 @@
     "generate-toc": "markdown-toc -i readme.md"
   },
 
-  "author": "Lucky Developer",
+  "author": "abrarfauzi",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
