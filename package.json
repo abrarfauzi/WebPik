@@ -1,6 +1,6 @@
 {
   "name": "PIK",
-  "homebage":"https://www.abrarfauzi.at/WebPik",
+  "homebage": "https://www.abrarfauzi.at/WebPik",
   "version": "2.0.0",
   "type": "module",
   "description": "The information of real estate of Israel",
@@ -17,14 +17,13 @@
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "generate-toc": "markdown-toc -i readme.md"
   },
-  
-
   "author": "abrarfauzi",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-session": "^1.18.0",

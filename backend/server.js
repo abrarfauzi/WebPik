@@ -11,7 +11,7 @@ import uploadsRoutes from './routes/uploadsRoutes.js'
 import favouriteRoutes from './routes/favouriteRoutes.js'
 import postAtRoutes from './routes/postAtRoutes.js'
 import { notFound, errorHandler } from './middleware/errorMiddleware.js'
-
+import cors from 'cors'
 
 connectDB(); // MongoDB connect
 
@@ -19,6 +19,7 @@ const port = process.env.PORT || 5001;
 const app = express();
 
 // Body parser middleware
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
